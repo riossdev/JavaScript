@@ -2,8 +2,11 @@
   "name": "05_proyectos",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node toDoCli/app.js",
+    "dev": "node --watch toDoCli/app.js"
+
   },
   "keywords": [],
   "author": "",
