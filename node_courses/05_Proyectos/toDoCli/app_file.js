@@ -76,7 +76,6 @@ function listTasks() {
       displayMenu();
       chooseOption();
   } 
- 
 }
 
 function completeTask() {
